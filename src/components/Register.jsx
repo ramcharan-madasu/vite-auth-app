@@ -1,5 +1,5 @@
-function Register(){
-    return <h1>register</h1>;
+function Register() {
+  return <h1>register component</h1>;
 }
 
 export default Register;
