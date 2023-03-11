@@ -1,0 +1,29 @@
+#main-container {
+  background-color: black;
+  color: yellow;
+  width: 400px;
+  height: 300px;
+  border: 5px solid white;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 25px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  text-align: center;
+  background-color: black;
+  color: yellow;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border: 2px solid yellow;
+}
+
+button {
+  background-color: yellow;
+}
